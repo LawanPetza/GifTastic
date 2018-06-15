@@ -2,9 +2,10 @@ $(document).ready(function () {
     var players = ["Messi", "Neymar", "Ronaldo", "Harry Kane", "Manuel Neuer", "Stuart Franklin", "Toni Kroos"]
 
     function makeButtons() {
-        // console.log("Hello World")
-        $("#buttons-view").empty();
+        console.log(makeButtons)
 
+        $("#buttons-view").empty();
+        // loops through the players array
         for (var i = 0; i < players.length; i++) {
             var button = $("<button>")
             button.addClass("soccerPlayer")
@@ -31,6 +32,8 @@ $(document).ready(function () {
         })
             // After the data comes back from the API
             .then(function (response) {
+                console.log(response.data);
+                
                 // Storing an array of results in the results variable
                 var results = response.data;
                 console.log(results)
@@ -94,11 +97,12 @@ $(document).ready(function () {
 
 
     });
-
-    $("#add-player").on("click", function() {
-        // event.preventDefault();
+    //add-player button event
+    $("#add-player").on("click", function(event) {
+        event.preventDefault();
         // This line grabs the input from the textbox
         var soccerplayer = $("#player-input").val().trim();
+        console.log(soccerplayer)
 
         // Adding movie from the textbox to our array
         players.push(soccerplayer);

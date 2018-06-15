@@ -1,6 +1,7 @@
 body {
     background-color: bisque;
     text-align: center;
+    font-family: 'Poiret One', cursive;
 }
 
 .container {
@@ -11,9 +12,25 @@ body {
     margin-bottom: 10px;
 }
 
-#players-view {
+#buttons-view {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.soccerPlayer {
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blue;
 
 }
+Rating {
+    color: blue;
+    font-size: 10px;
+}
+
 /* #panelBody {
     background-color: black;
     border-bottom: solid rebeccapurple 5px;
