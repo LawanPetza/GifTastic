@@ -18,13 +18,35 @@
 </head>
 
 <body>
-    <div id="buttons-view"></div>
+    <div class="container">
+        <div class="jumbotron" id="jumbo">
+            <h1 id="text"> Soccer player</h1>
 
-    <div id="players-view"></div>
-    <div id= "player-input"></div>
-    <div id= "add-player"></div>
+            <div id="buttons-view"></div>
 
+            
+            <!-- <div id= "player-input"></div>
+    <div id= "add-player"></div> -->
 
+            
+    <div class="form-group">
+            <label for="player-input"></label>
+            <input type="text" class="form-control" id="player-input" placeholder="Add a player">
+          </div>
+
+          <div class="form-group">
+            <button class="btn btn-primary" type="submit" id="add-player">Submit</button>
+          </div>
+   
+
+        </div>
+    </div>
+
+    <div class = "panel panel default" id = "panelBody">
+        <div class="panel-body">
+            <div id = "players-view"></div>
+        </div>
+    </div>
 </body>
 
 </html>

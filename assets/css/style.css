@@ -1,0 +1,20 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+.container {
+    /* background-color: rgba(red, green, blue, alpha); */
+}
+#player-input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#players-view {
+
+}
+/* #panelBody {
+    background-color: black;
+    border-bottom: solid rebeccapurple 5px;
+} */
