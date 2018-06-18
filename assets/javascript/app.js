@@ -8,16 +8,15 @@ $(document).ready(function () {
         // loops through the players array
         for (var i = 0; i < players.length; i++) {
             var button = $("<button>")
-            button.addClass("soccerPlayer")
+            button.addClass("soccerBtn")
             button.attr("data-name", players[i])
             button.text(players[i])
             $("#buttons-view").append(button);
         }
     }
     makeButtons()
-
     // Event listener for all button elements
-    $("button").on("click", function () {
+    $(document).on("click",".soccerBtn", function () {
         // In this case, the "this" keyword refers to the button that was clicked
         var soccerPlayer = $(this).attr("data-name");
 
@@ -85,6 +84,7 @@ $(document).ready(function () {
 
         //Function accesses "data-state" attribute and depending on status, changes image source to "data-animate" or "data-still"
         function pauseGifPlayer() {
+            
             var state = $(this).attr("data-state");
             if (state === "still") {
                 $(this).attr("src", $(this).attr("data-animate"));

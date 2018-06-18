@@ -4,9 +4,10 @@ body {
     font-family: 'Poiret One', cursive;
 }
 
-.container {
-    /* background-color: rgba(red, green, blue, alpha); */
+.item {
+    float: left;
 }
+
 #player-input {
     margin-top: 20px;
     margin-bottom: 10px;
