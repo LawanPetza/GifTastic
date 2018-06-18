@@ -3,7 +3,9 @@ body {
     text-align: center;
     font-family: 'Poiret One', cursive;
 }
-
+.container {
+    margin-top: 10px;
+}
 .item {
     float: left;
 }
@@ -11,6 +13,15 @@ body {
 #player-input {
     margin-top: 20px;
     margin-bottom: 10px;
+    width: 300px;
+    text-align: center;
+
+}
+
+#text {
+    font-size: 60px;
+    margin-top: 0;
+    top: 10px;
 }
 
 #buttons-view {
@@ -31,8 +42,8 @@ Rating {
     color: blue;
     font-size: 10px;
 }
-
-/* #panelBody {
-    background-color: black;
-    border-bottom: solid rebeccapurple 5px;
-} */
+.soccerBtn {
+    margin-right: 20px;
+    background-color: blue;
+    color: white;
+}
