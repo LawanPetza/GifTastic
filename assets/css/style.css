@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background: url(../images/image.jpg);
     text-align: center;
     font-family: 'Poiret One', cursive;
 }
@@ -8,6 +8,8 @@ body {
 }
 .item {
     float: left;
+    padding: 5px;
+
 }
 
 #player-input {
@@ -31,19 +33,21 @@ body {
     
 }
 .soccerPlayer {
-    padding: 10px;
+    padding: 5px;
     margin-right: 10px;
-    color: white;
+    margin: 3px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: blue;
+    border-color: beige;
 
 }
-Rating {
-    color: blue;
-    font-size: 10px;
+p {
+    color: whitesmoke;
+    font-size: 15px;
 }
 .soccerBtn {
     margin-right: 20px;
     background-color: blue;
     color: white;
+    margin-top: 20px;
 }
