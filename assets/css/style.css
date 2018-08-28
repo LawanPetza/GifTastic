@@ -6,7 +6,7 @@ body {
 .container {
     margin-top: 10px;
 }
-.item {
+.player-item {
     float: left;
     padding: 5px;
 
@@ -33,14 +33,16 @@ body {
     
 }
 .soccerPlayer {
+    width: 250px;
+    height: 200px;
     padding: 5px;
     margin-right: 10px;
     margin: 3px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: blue;
     border-color: beige;
-
 }
+
 p {
     color: whitesmoke;
     font-size: 15px;
